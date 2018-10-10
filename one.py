@@ -1,6 +1,5 @@
 import subprocess
 
-
 def index():
     subprocess.call("sudo apt-get update", shell=True)
     subprocess.call("sudo add-apt-repository ppa:mystic-mirage/pycharm", shell=True)
@@ -13,3 +12,4 @@ def index():
     subprocess.call("sudo apt-get install -y opera pycharm", shell=True)
     
 index()
+
