@@ -4,7 +4,6 @@ import os
 def install_function():
     os.system('sudo apt-get update')
     os.system('sudo add-apt-repository ppa:mystic-mirage/pycharm')
-    os.system('sudo apt-key add sublimehq-pub.gpg -')
     os.system('echo deb http://deb.opera.com/opera/ stable non-free | sudo tee /etc/apt/sources.list.d/opera.list')
     os.system('wget -qO - http://deb.opera.com/archive.key | sudo apt-key add -')
     os.system('sudo apt-key add - ')
