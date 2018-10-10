@@ -14,3 +14,4 @@ def install_function():
     os.system('sudo apt-get install -y opera pycharm')
     
     install_function()
+    
