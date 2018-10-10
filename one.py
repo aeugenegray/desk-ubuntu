@@ -2,7 +2,6 @@ import os
 
 
 def install_function():
-
     os.system('sudo apt-get update')
     os.system('sudo add-apt-repository ppa:mystic-mirage/pycharm')
     os.system('sudo apt-key add sublimehq-pub.gpg -')
@@ -14,5 +13,5 @@ def install_function():
     os.system('sudo apt-get install -y sublime-text opera google-drive-ocamlfuse')
     os.system('sudo apt-get install -y gimp actionaz terminator gdebi ssvnc chromium-browser')
     os.system('sudo apt-get install -y opera pycharm')
-
+    
     install_function()
