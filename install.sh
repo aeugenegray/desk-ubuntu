@@ -17,7 +17,7 @@ sudo add-apt-repository ppa:alessandro-strada/ppa
 sudo apt-get update && sudo apt-get upgrade
 
 #install
-sudo apt-get update && sudo apt-get -y install terminator firefox chromium-browser openshot-qt tightvncserver lxde actionaz vivaldi-stable google-drive-ocamlfuse
+sudo apt-get update && sudo apt-get -y install terminator firefox chromium-browser openshot-qt tightvncserver actionaz vivaldi-stable google-drive-ocamlfuse lxde
 
 #opera install
 sudo apt-get -y install opera-stable
