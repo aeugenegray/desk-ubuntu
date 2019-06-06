@@ -11,10 +11,11 @@ wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add
 echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
 
 #googledrive
-sudo add-apt-repository ppa:alessandro-strada/ppa
+sudo add-apt-repository -y ppa:alessandro-strada/ppa
+
 
 #update & upgrade
-sudo apt-get update && sudo apt-get upgrade
+sudo apt-get update
 
 #install
 sudo apt-get -y install terminator firefox chromium-browser openshot tightvncserver actionaz vivaldi-stable google-drive-ocamlfuse lxde nano
