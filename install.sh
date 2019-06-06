@@ -17,10 +17,23 @@ sudo add-apt-repository ppa:alessandro-strada/ppa
 sudo apt-get update && sudo apt-get upgrade
 
 #install
-sudo apt-get update && sudo apt-get -y install terminator firefox chromium-browser openshot-qt tightvncserver actionaz vivaldi-stable google-drive-ocamlfuse lxde
+sudo apt-get -y install terminator firefox chromium-browser openshot tightvncserver actionaz vivaldi-stable google-drive-ocamlfuse lxde nano
+
+#make google drive folder
+mkdir ~/googledrive
+
+#setup vnc
+vncserver
+password
+password
+n
+
+#remove vncserver
+sudo apt-get -y remove tightvncserver
+
+#install vnc4server
+sudo apt-get install vnc4server
 
 #opera install
 sudo apt-get -y install opera-stable
 
-#make google drive folder
-mkdir ~/googledrive
